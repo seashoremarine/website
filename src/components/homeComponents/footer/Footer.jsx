@@ -13,7 +13,7 @@ const Footer = () => {
                 <button>Subscribe</button>
             </div>
             <div>
-                <h6>Our Services</h6>
+                <h6 style={{width:'115px'}}>Our Services</h6>
                 <ul>
                     <li>  Ship Management</li>
                     <li>Crew Management</li>

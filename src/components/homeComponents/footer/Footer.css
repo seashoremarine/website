@@ -29,9 +29,11 @@
     flex-direction: column;
 }
 .footer-container h6{
-    border-bottom: 1px solid rgb(9, 67, 67);
+    border-bottom: 2px solid rgb(9, 67, 67);
     font-size: 18px;
     font-weight: bold;
+    width: 100%;
+    
 }
 .footer-container div ul{
     list-style: none;

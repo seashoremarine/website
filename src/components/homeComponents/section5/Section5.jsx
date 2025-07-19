@@ -17,7 +17,7 @@ const Section5 = () => {
             <button>Join out crew</button>
         </div>
         <div className="right-careers">
-            <img src={logo} alt="" />
+            <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Fsection-5%2Fimage01.webp&w=1080&q=75" alt="" />
         </div>
       </div>
     </div>

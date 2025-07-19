@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: outfit;
+  /* font-family: outfit; */
+  font-family: Merriweather, Merriweather Fallback;
 }
 h1,h2,h3,h4,h5,h6,p,ul,li{
   margin: 0;
@@ -36,7 +37,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
   align-items: center;
   gap: 10px;
   flex-direction: column;
-  margin-top: 10px;
+  margin-top: 80px;
   margin-bottom: 20px;
 }
 
@@ -104,7 +105,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 
 
 .section-4-container{
-  background-color:#202033;
+  background: linear-gradient(rgb(1, 39, 47), rgb(3, 26, 53));
 }
 
 .section-5-heading-box{
