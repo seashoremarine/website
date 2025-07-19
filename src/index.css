@@ -1,0 +1,211 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 730px;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* video behind all content */
+}
+
+.section2-container{
+  background-color:#202033;
+}
+
+.section3-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.section3-heading h1{
+  font-weight: bolder;
+  font-size: 77px;
+}
+
+.section3-heading h1 span{
+  color: rgb(7, 112, 112);
+}
+
+.section3-heading h2 span{
+  color: rgb(7, 112, 112);
+}
+
+.section3-container{
+  height:630px;
+}
+
+.section4-heading{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 140px;
+
+}
+
+.section4-heading h1{
+  font-size: 50px;
+}
+.section4-heading div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section4-heading div button{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid cyan;
+}
+.section4-heading div p{
+  font-size: 24px;
+}
+
+#connectbtn{
+  width: 250px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+ background-color: rgb(4, 125, 125);
+ color: white;
+ border: none;
+ transition: 0.5s;
+}
+
+
+#connectbtn:hover{
+ background-color: black;
+ color: white;
+ transform: scale(0.9);
+}
+
+
+.section-4-container{
+  background-color:#202033;
+}
+
+.section-5-heading-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 500px; */
+  flex-direction: column;
+  margin:50px 0px;
+
+}
+
+.section-5-heading-box div{
+  width: 900px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(8, 35, 37), rgb(2, 91, 99));
+
+  border-radius: 10px;
+  color: white;
+  gap: 20px;
+  height: 300px;
+}
+.section-5-heading-box div h1{
+  font-size: 46px;
+  text-align: center;
+  font-weight: bolder;
+}
+.section-5-heading-box div h6{
+  text-align: center;
+}
+
+.section-5-heading-box div button{
+  width: 250px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+ background-color: white;
+ color: black;
+ border: none;
+ transition: 0.5s;
+}
+
+.section-5-heading-box div button:hover{
+  background-color: rgb(4, 125, 125);
+color: white;
+transform: scale(0.9);
+}
+
+@media screen and (max-width:784px) {
+  .section3-container{
+  height:430px;
+  overflow: visible;
+}
+.section4-heading{
+  margin-top: 380px;
+}
+
+}
+
+@media screen and (max-width:912px) {
+ .section-5-heading-box div{
+  width: 80%;
+  margin: 0px 20px;
+  height: auto;
+ }
+
+}
+
+@media screen and (max-width:610px) {
+ 
+ .section-5-heading-box div h1{
+  font-size: 32px;
+ }
+
+ .section-5-heading-box div h6{
+  font-size: 15px;
+ }
+
+}
+
+@media screen and (max-width:1047px) {
+
+  .section3-heading h1{
+     font-size: 55px;
+  }
+  
+}
+
+
+@media screen and (max-width:750px) {
+
+  .section3-heading h1{
+     font-size: 40px;
+     text-align: center;
+  }
+  .section3-heading h2{
+    font-size: 20px;
+  }
+  
+}

@@ -1,0 +1,37 @@
+.section-7-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-7-container h1{
+    font-size: 56px;
+}
+
+.section-7-accordion-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    margin: 30px 0px;
+}
+.accordion-title{
+    font-size: 21px;
+}
+
+@media screen and (max-width:773px) {
+   .section-7-container h1{
+    font-size: 40px;
+   }
+   .section-7-accordion-parent{
+    width: 100%;
+   }
+}
+
+
+@media screen and (max-width:519px) {
+     .section-7-container h1{
+    font-size: 30px;
+   }
+}
