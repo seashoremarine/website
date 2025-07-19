@@ -4,8 +4,8 @@ import './Section4.css';
 const Section4 = () => {
   return (
     <div className='container section-4'>
-      <h1>Our Marine Services</h1>
-      
+      <h1>Our Marine Courses</h1>
+
       <div id="carouselExampleCaptions" className="carousel slide">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -17,17 +17,18 @@ const Section4 = () => {
           <div className="carousel-item active">
             {/* Flex container to split content and image */}
             <div className="d-flex align-items-center section4-slide">
-              
+
               {/* Content Left */}
               <div className="section4-content text-light">
-                <h5>Crew Management</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatem delectus culpa obcaecati laboriosam. Architecto voluptate.</p>
-                <div>Read More</div>
+                <h1>STCW</h1>
+                <h3>ADVANCED MODULAR COURSES</h3>
+                <p>These courses are mandatory for every seafarer.Certificates have to be renewed on expiry.</p>
+                {/* <div>Read More</div> */}
               </div>
 
               {/* Image Right */}
               <div className="section4-image">
-                <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Four-marine-services%2Fimage04.webp&w=1080&q=75" alt="crew ship" className="img-fluid "/>
+                <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Four-marine-services%2Fimage04.webp&w=1080&q=75" alt="crew ship" className="img-fluid " />
               </div>
 
             </div>
@@ -37,16 +38,33 @@ const Section4 = () => {
           <div className="carousel-item">
             <div className="d-flex align-items-center section4-slide">
               <div className="section4-content">
-                <h5>Second Slide Label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-                <div>Read More</div>
+                <h1>GP-RATING</h1>
+                <h3>PRE-SEA TRAINING COURSE FOR GENERAL PURPOSE</h3>
+                <p>GENERAL PURPOSE (GP)
+                  RATINGS
+                  (As per Director General of Shipping
+                  Training Circular no. 01 of 2018)</p>
+                {/* <div>Read More</div> */}
               </div>
               <div className="section4-image">
-                <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Four-marine-services%2Fimage02.webp&w=1080&q=75" alt="..." className="img-fluid"/>
+                <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Four-marine-services%2Fimage02.webp&w=1080&q=75" alt="..." className="img-fluid" />
               </div>
             </div>
           </div>
 
+          <div className="carousel-item">
+            <div className="d-flex align-items-center section4-slide">
+              <div className="section4-content">
+                <h1>CCMC</h1>
+                <h3>SALOON RATING (CERTIFICATE COURSE IN MARITIME CATERING)</h3>
+                <p>(As per Merchant shipping (Medical Examination)Amendment Rules,2016 as amended from time to time)</p>
+                {/* <div>Read More</div> */}
+              </div>
+              <div className="section4-image">
+                <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Four-marine-services%2Fimage03.webp&w=1080&q=75" alt="..." className="img-fluid" />
+              </div>
+            </div>
+          </div>
           <div className="carousel-item">
             <div className="d-flex align-items-center section4-slide">
               <div className="section4-content">
@@ -55,19 +73,7 @@ const Section4 = () => {
                 <div>Read More</div>
               </div>
               <div className="section4-image">
-                <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Four-marine-services%2Fimage03.webp&w=1080&q=75" alt="..." className="img-fluid"/>
-              </div>
-            </div>
-          </div>
-           <div className="carousel-item">
-            <div className="d-flex align-items-center section4-slide">
-              <div className="section4-content">
-                <h5>Third Slide Label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-                <div>Read More</div>
-              </div>
-              <div className="section4-image">
-                <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Four-marine-services%2Fimage04.webp&w=1080&q=75" alt="..." className="img-fluid"/>
+                <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Four-marine-services%2Fimage04.webp&w=1080&q=75" alt="..." className="img-fluid" />
               </div>
             </div>
           </div>
