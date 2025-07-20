@@ -24,7 +24,7 @@ const Navbar = () => {
           </div>
         </nav>
       </div>
-      <hr className='text-light'/>
+      {/* <hr className='text-light'/> */}
 
       {/* Offcanvas Navigation Modal */}
    <div

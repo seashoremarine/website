@@ -13,8 +13,8 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 .home-container {
   position: relative;
   width: 100%;
-  overflow: hidden;
-  height: 730px;
+  /* overflow: hidden; */
+  height: 100vh;
 }
 
 .background-video {
@@ -39,6 +39,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
   flex-direction: column;
   margin-top: 80px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .section3-heading h1{
@@ -50,6 +51,9 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
   color: rgb(7, 112, 112);
 }
 
+.section3-heading h2{
+  text-align: center;
+}
 .section3-heading h2 span{
   color: rgb(7, 112, 112);
 }

@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 100vh;
     flex-direction: column;
     color: white;
+  
 }
 
 .section1 h1{
