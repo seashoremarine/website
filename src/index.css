@@ -62,7 +62,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 140px;
+  margin-top: 80px;
 
 }
 
@@ -106,6 +106,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 
 .section-4-container{
   background: linear-gradient(rgb(1, 39, 47), rgb(3, 26, 53));
+  width: 100%;
 }
 
 .section-5-heading-box{
@@ -164,7 +165,7 @@ transform: scale(0.9);
   overflow: visible;
 }
 .section4-heading{
-  margin-top: 380px;
+  margin-top: 480px;
 }
 
 }
@@ -208,5 +209,50 @@ transform: scale(0.9);
   .section3-heading h2{
     font-size: 20px;
   }
+
   
+}
+
+
+
+@media screen and (max-width:569px) {
+
+  .section4-heading{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 500px;
+
+}
+
+.section4-heading h1{
+  font-size: 30px;
+}
+.section4-heading div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section4-heading div button{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid cyan;
+}
+.section4-heading h6{
+  font-size: 14px;
+}
+  
+}
+
+@media screen and (max-width:466px) {
+  .section3-container{
+  height:430px;
+  overflow: visible;
+}
+.section4-heading{
+  margin-top: 570px;
+}
+
 }

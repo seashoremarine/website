@@ -56,25 +56,26 @@
 .left-child-box {
   display: flex;
   border: none;
-  align-items: center;
-  width: 300px;
-  padding: 15px;
+  justify-content: space-between;
+  width: 370px;
+  padding: 15px 10px;
   background-color: rgb(0, 117, 133);
   border-radius: 10px;
   gap: 10px;
   /* height: 80px; */
   cursor: pointer;
+  /* border: 1px solid black; */
 }
 
 .left-box h1 {
   color: white;
-  font-size: 24px;
+  font-size: 27px;
   font-weight: 200;
 }
 
 .left-box button {
   width: 40px;
-  height: 30px;
+  height: 40px;
   border-radius: 50%;
   background-color: transparent;
   border: 1px solid cyan;
@@ -145,6 +146,10 @@
   .left-child-box {
     width: 100%;
     z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
   }
 
   .left-box {

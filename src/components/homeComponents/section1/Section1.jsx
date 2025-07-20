@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import './Section1.css'
 import logo from '../../../assets/Seashore.png'
 import { searchContext } from '../../context/SearchContext'
+import { Link } from 'react-router-dom'
 
 const Section1 = () => {
   const { search, setSearch } = useContext(searchContext)
@@ -12,17 +13,21 @@ const Section1 = () => {
         <h2>in Marine Services & Marine Courses</h2>
         <br/>
         <div>
-          <button className='btn btn-light'>GET START</button>
+          <a href='#about'><button className='btn btn-light'>GET START</button></a>
         </div>
       </div>
       {search && <div className="search-parent">
         <div className="search-child">
-          <div className="search-heading">
-            <input type="text" />
-            <button onClick={() => setSearch(false)}>X</button>
+          <div>
+          <button  onClick={() => setSearch(false)} className='close-btn'><i class="fa-solid fa-xmark"></i></button>
           </div>
-          <div className="details">
-            <div className='container footer-container'>
+          <div className="search-heading">
+            <input type="text" placeholder='Search here' />
+            
+          </div>
+          <hr style={{marginTop:'110px'}}/>
+          <div className="">
+            <div className='container search-footers'>
               <div>
                 <img src={logo} alt="" />
                 <p>SEASHORE MARINE SOLUTIONS</p>

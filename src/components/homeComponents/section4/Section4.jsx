@@ -1,10 +1,17 @@
 import React from 'react'
-import './Section4.css';
+import './Section4.css'
+import image1 from '../../../assets/persons.webp'
+import image2 from '../../../assets/shipmentdock.webp'
+import image3 from '../../../assets/woRkers.webp'
+// import '../../../assets/'
 
 const Section4 = () => {
   return (
     <div className='container section-4'>
       <h1>Our Marine Courses</h1>
+      {/* <div className='hr-div'>
+        <hr />
+      </div> */}
 
       <div id="carouselExampleCaptions" className="carousel slide">
         <div className="carousel-indicators">
@@ -20,7 +27,7 @@ const Section4 = () => {
 
               {/* Content Left */}
               <div className="section4-content text-light">
-                <h1>STCW</h1>
+                <h2>STCW</h2>
                 <h3>ADVANCED MODULAR COURSES</h3>
                 <p>These courses are mandatory for every seafarer.Certificates have to be renewed on expiry.</p>
                 {/* <div>Read More</div> */}
@@ -28,7 +35,7 @@ const Section4 = () => {
 
               {/* Image Right */}
               <div className="section4-image">
-                <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Four-marine-services%2Fimage04.webp&w=1080&q=75" alt="crew ship" className="img-fluid " />
+                <img src={image2} alt="crew ship" className="img-fluid " />
               </div>
 
             </div>
@@ -47,7 +54,7 @@ const Section4 = () => {
                 {/* <div>Read More</div> */}
               </div>
               <div className="section4-image">
-                <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Four-marine-services%2Fimage02.webp&w=1080&q=75" alt="..." className="img-fluid" />
+                <img src={image1} alt="..." className="img-fluid" />
               </div>
             </div>
           </div>
@@ -61,7 +68,7 @@ const Section4 = () => {
                 {/* <div>Read More</div> */}
               </div>
               <div className="section4-image">
-                <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Four-marine-services%2Fimage03.webp&w=1080&q=75" alt="..." className="img-fluid" />
+                <img src={image3} alt="..." className="img-fluid" />
               </div>
             </div>
           </div>

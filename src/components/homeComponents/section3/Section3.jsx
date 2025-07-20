@@ -33,7 +33,7 @@ const Section3 = () => {
               key={each.id}
               onClick={() => handleClick(each.id)}
               className="left-child-box"
-              style={id === each.id ? { backgroundColor: 'white', color: 'black' } : {}}
+              style={id === each.id ? { backgroundColor: 'white', color: 'black' ,border:'1px solid black'} : {}}
             >
               <h1 style={id === each.id ? { color: 'black' } : {}}>{each.title}</h1>
               <button style={id === each.id ? { color: 'black' } : {}}>

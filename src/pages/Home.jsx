@@ -8,6 +8,7 @@ import Section4 from '../components/homeComponents/section4/Section4'
 import Section5 from '../components/homeComponents/section5/Section5'
 import Section7 from '../components/homeComponents/section7/Section7'
 import Footer from '../components/homeComponents/footer/Footer'
+import Section6 from '../components/homeComponents/section6/Section6'
 
 const Home = () => {
   return (
@@ -80,6 +81,8 @@ const Home = () => {
 </div>
 
       <Section5 />
+      <hr />
+      <Section6/>
       <hr />
       <Section7 />
       <hr />

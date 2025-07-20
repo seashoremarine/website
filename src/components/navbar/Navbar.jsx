@@ -11,13 +11,9 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
             <a className="navbar-brand" href="#"><img src={logo} alt="" /></a>
-            <button className="navbar-toggler" style={{color:'white'}} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon" style={{color:'white'}}></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">               
-              </ul>
-              <div className="d-flex align-items-center" role="search">
+           
+            
+  <div className="d-flex align-items-center" role="search">
                 <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavigation" aria-controls="offcanvasNavigation" className='btn fs-2'>
                   <i className="fa-solid fa-bars"></i>
                 </button>
@@ -25,20 +21,25 @@ const Navbar = () => {
                   <i className="fa-solid fa-magnifying-glass" onClick={()=>setSearch(true)}></i>
                 </button>             
               </div>
-            </div>
           </div>
         </nav>
       </div>
       <hr className='text-light'/>
 
       {/* Offcanvas Navigation Modal */}
-      <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavigation" aria-labelledby="offcanvasNavigationLabel">
-        <div className="offcanvas-header">
-          <h5 className="offcanvas-title" id="offcanvasNavigationLabel">
-            <img src={logo} alt="Logo" style={{height: '40px'}} />
-          </h5>
-          <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
+   <div
+  className="offcanvas offcanvas-top"
+  tabIndex="-1"
+  id="offcanvasNavigation"
+  aria-labelledby="offcanvasNavigationLabel"
+  style={{ width: '100vw', maxWidth: '100vw', left: 0 }}
+>
+  <div className="offcanvas-header container-fluid px-0">
+    <h5 className="offcanvas-title" id="offcanvasNavigationLabel">
+      <img src={logo} alt="Logo" style={{ height: '40px' }} />
+    </h5>
+    <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
         <div className="offcanvas-body container">
           <nav className="nav-menu">
             <ul className="nav flex-column">
@@ -51,16 +52,16 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#approach">Marine Courses</a>
+                <a className="nav-link" href="#approach"  data-bs-dismiss="offcanvas" >Marine Courses</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#fleet">About Us</a>
+                <a className="nav-link" href="#fleet"  data-bs-dismiss="offcanvas" >About Us</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#careers">Careers</a>
+                <a className="nav-link" href="#careers" data-bs-dismiss="offcanvas" >Careers</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#news">Gallery</a>
+                <a className="nav-link" href="#news" data-bs-dismiss="offcanvas" >Gallery</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#resources">
@@ -68,16 +69,16 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">Placement</a>
+                <a className="nav-link" href="#contact" data-bs-dismiss="offcanvas" >Placement</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">
+                <a className="nav-link" href="#about" data-bs-dismiss="offcanvas" >
                   Contact Us<i className="fa-solid fa-chevron-right"></i>
                 </a>
               </li>
             </ul>
             
-            {/* Action Buttons */}
+           
 
             <div>
               <div className="mt-4 sidebar-btn-div ">
@@ -85,7 +86,7 @@ const Navbar = () => {
              
             </div>
 
-            {/* Social Media Icons */}
+            
             <div className="social-icons mt-4">
               <a href="#" className="me-3"><i className="fab fa-linkedin"></i></a>
               <a href="#" className="me-3"><i className="fab fa-instagram"></i></a>
@@ -100,5 +101,6 @@ const Navbar = () => {
     </>
   )
 }
+
 
 export default Navbar

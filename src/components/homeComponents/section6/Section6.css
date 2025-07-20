@@ -1,0 +1,246 @@
+/* Font Awesome Import */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* Main Section */
+.news-section {
+  background-color: #1e293b;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.read-more-btn {
+  background-color: white;
+  color: #1e293b;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.read-more-btn:hover {
+  background-color: #f1f5f9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Cards Grid */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  width: 100%;
+}
+
+.news-card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: transparent;
+  width: 100%;
+  height: 400px;
+  aspect-ratio: 1 / 1; /* ✅ Maintains square cards responsively */
+  animation: fadeInUp 0.5s ease-out;
+}
+
+.news-card:hover {
+  background-color: rgba(51, 65, 85, 0.5);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 400px;
+
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  text-align: center;
+  color: white;
+}
+
+.card-description {
+  color: #d1d5db;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Navigation */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-btn {
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 1px solid #475569;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btn:hover {
+  border-color: #94a3b8;
+  background-color: #374151;
+  transform: scale(1.1);
+}
+
+/* Progress Bar */
+.progress-container {
+  flex: 1;
+  max-width: 300px;
+}
+
+.progress-bar {
+  height: 4px;
+  background-color: #475569;
+  border-radius: 2px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: white;
+  border-radius: 2px;
+  transition: all 0.5s ease-out;
+}
+
+/* Indicators */
+.indicators {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #475569;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.indicator.active {
+  background-color: white;
+  transform: scale(1.2);
+}
+
+.indicator:hover:not(.active) {
+  background-color: #94a3b8;
+  transform: scale(1.1);
+}
+
+/* Responsive Media Queries */
+
+/* Tablet */
+@media (max-width: 915px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .news-card {
+    display: none; /* Hide all by default below 915px */
+  }
+
+  .news-card:first-child {
+    display: block; /* Show only the first card */
+  }
+
+  .news-card {
+    width: 100%;
+    height: 400px;
+  }
+}
+/* Mobile
+/* @media (max-width: 768px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .read-more-btn {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+} */ 
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Focus states for accessibility */
+.read-more-btn:focus,
+.nav-btn:focus,
+.indicator:focus {
+  outline: 2px solid #60a5fa;
+  outline-offset: 2px;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .news-section {
+    background-color: #0f172a;
+  }
+}

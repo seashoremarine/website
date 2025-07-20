@@ -22,7 +22,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
-                    <h6>Helpful Links</h6>
+                    <h6 style={{width:'130px'}}>Helpful Links</h6>
                     <ul>
                         <li>Courses</li>
                         <li>Careers</li>

@@ -4,7 +4,7 @@ import logo from '../../../assets/Seashore.png'
 
 const Section5 = () => {
   return (
-    <div className='container section5-container'>
+    <div className='container section5-container' id='careers'>
       <h1>Careers</h1>
       <div className="section-careers-parent">
         <div className="left-careers">
@@ -13,7 +13,15 @@ const Section5 = () => {
             Career Guidance in the Maritime Industry
           </div>
 
-          <p>Are you uncertain about your career path? Our expert professionals at SEASHORE MARINE
+         
+
+<img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Fsection-5%2Fimage01.webp&w=1080&q=75" alt="" />
+
+
+        </div>
+        <div className="right-careers">
+          <div>
+             <p>Are you uncertain about your career path? Our expert professionals at SEASHORE MARINE
             SOLUTIONS can provide personalized guidance to help you navigate your future.
             <br />
             <p> Expert Career Guidance for Aspiring Maritime Professionals.</p>  <br />
@@ -29,13 +37,7 @@ const Section5 = () => {
           <br />
 
           <p>At SEASHORE MARINE SOLUTIONS, we're committed to empowering young aspirants to pursuerewarding careers in the maritime industry. </p>
-
-
-
-
-        </div>
-        <div className="right-careers">
-          <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Fsection-5%2Fimage01.webp&w=1080&q=75" alt="" />
+          </div>
         </div>
       </div>
     </div>

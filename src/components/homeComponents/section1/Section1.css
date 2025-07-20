@@ -8,8 +8,9 @@
 }
 
 .section1 h1{
-    font-size: 85px;
+    font-size: 80px;
     font-weight: bolder;
+    text-align: center;
 }
 .section1 h2{
     font-size: 40px;
@@ -46,30 +47,55 @@
       background-color: white;
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 10px;
       padding: 10px;
       border-radius: 10px;
 }
 
-.search-heading{
+
+.search-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers the entire input+button block horizontally if inside a wider container */
+  gap: 10px;
+  margin-top: 10px;
+  margin-top: -30px;
+}
+
+.search-heading input {
+  width: 350px; /* set desired fixed width */
+  padding: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.close-btn {
+  border-radius: 50%;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(9, 184, 184);
+  cursor: pointer;
+  float:right;
+}
+.search-footers{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    align-items: center;
-    gap: 10px;
-}
-.search-heading button{
-    float: right;
-    border-radius: 50%;
     background-color: white;
-    width: 40px;
-    height: 40px;
-    border: 1px solid cyan;
-    background-color: none;
+    flex-wrap: wrap;
 }
-.details{
-    margin-top: 100px;
+.search-footers div img{
+    width: 50px;
+    height: 50px;
 }
+.search-footers ul{
+    list-style: none;
+}
+.search-footers h6{
+    width: 100%;
+    border-bottom: 1px solid darkblue;
+}
+
 
 @media screen and (max-width:1035px) {
     .section1 h1{
@@ -95,4 +121,19 @@
     .section1 div{
         margin-top: 40px;
     }
+}
+
+
+@media screen and (max-width:693px) {
+   .search-footers div{
+    margin-top: 10px;
+   }
+   .search-child{
+    height: auto;
+    margin-top: 60px;
+    width: 90%;
+   }
+   .search-heading input{
+    margin-top: 40px;
+   }
 }

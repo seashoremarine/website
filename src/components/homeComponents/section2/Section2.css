@@ -89,7 +89,7 @@
 
 
 @media screen and (max-width: 992px) {
-  .section2-services {
+  .section1-services {
     grid-template-columns: repeat(2, 1fr);
   }
   .section2{
@@ -97,9 +97,51 @@
   }
 }
 
+@media screen and (max-width: 609px) {
+  .section1-services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section2{
+    height: auto;
+  }
+  .section1-box button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+}
+
+.section1-box button i {
+  font-size: 25px;
+  color: white;
+}
+
+.section1-box h2 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.section1-box h6 {
+  font-size: 12px;
+  font-weight: normal;
+}
+ .section1-services {
+    width: 100%;
+  }
+
+   .section1-services {
+    grid-template-columns: repeat(2, minmax(120px, 1fr)); /* smaller min-width for very small screens */
+    max-width: 350px; /* smaller max width */
+  }
+}
+
 /* Mobile screens: 1 column */
 @media screen and (max-width: 576px) {
-  .section2-services {
-    grid-template-columns: 1fr;
-  }
+  
+  
 }
