@@ -22,6 +22,7 @@ career in the maritime industry. Our goal is to empower aspiring seafarers with 
 skills, and certifications necessary to succeed in this dynamic field .</div>
     </div>
   </div>
+
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed accordion-title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
@@ -37,6 +38,7 @@ skills, and certifications necessary to succeed in this dynamic field .</div>
 - Extended breaks and leave periods</div>
     </div>
   </div>
+
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed accordion-title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
@@ -53,6 +55,23 @@ At SEASHORE MARINE SOLUTIONS, we're committed to helping you navigate a successf
 fulfilling career in the marine industry.</div>
     </div>
   </div>
+
+
+
+ <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed accordion-title" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+     Placement
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">*Placement support only for our course enrolled students. </div>
+    </div>
+  </div>
+
+
+
+
 </div>
       </div>
     </div>

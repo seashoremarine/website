@@ -47,35 +47,32 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#service">
-                  Service <i className="fa-solid fa-chevron-right"></i>
+                  Marine Service <i className="fa-solid fa-chevron-right"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#approach">Our Approach</a>
+                <a className="nav-link" href="#approach">Marine Courses</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#fleet">Fleet</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#sustainability">Sustainability</a>
+                <a className="nav-link" href="#fleet">About Us</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#careers">Careers</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#news">News & Insights</a>
+                <a className="nav-link" href="#news">Gallery</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#resources">
-                  Resources <i className="fa-solid fa-chevron-right"></i>
+                  Why Us <i className="fa-solid fa-chevron-right"></i>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">Contact Us</a>
+                <a className="nav-link" href="#contact">Placement</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#about">
-                  About Us <i className="fa-solid fa-chevron-right"></i>
+                  Contact Us<i className="fa-solid fa-chevron-right"></i>
                 </a>
               </li>
             </ul>
@@ -84,8 +81,8 @@ const Navbar = () => {
 
             <div>
               <div className="mt-4 sidebar-btn-div ">
-              <button >Contact Us</button>
-              <button >Careers</button>
+              <button >GET START</button>
+             
             </div>
 
             {/* Social Media Icons */}
