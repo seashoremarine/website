@@ -9,6 +9,7 @@ import Section5 from '../components/homeComponents/section5/Section5'
 import Section7 from '../components/homeComponents/section7/Section7'
 import Footer from '../components/homeComponents/footer/Footer'
 import Section6 from '../components/homeComponents/section6/Section6'
+import MouseScrollTop from '../components/mouse/Mouse'
 
 const Home = () => {
   return (
@@ -24,7 +25,9 @@ const Home = () => {
 
         <Navbar />
         <Section1 />
+         <div id="section1"></div>
       </div>
+      <MouseScrollTop/>
       <div className="section2-container">
         <Section2 />
       </div>

@@ -1,0 +1,41 @@
+.mouse-scroll-top {
+  position: fixed;
+  bottom: 90px; /* keep above WhatsApp button */
+  right: 30px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 9999;
+}
+
+.mouse-scroll-top:hover {
+  background-color: #0096c7;
+  transform: scale(1.1);
+}
+
+.wht-btn {
+  position: fixed;
+  bottom: 30px; /* WhatsApp stays at bottom */
+  right: 30px;
+  background-color: #25D366;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.wht-btn:hover {
+  background-color: #128C7E;
+}
