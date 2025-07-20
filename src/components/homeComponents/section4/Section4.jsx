@@ -2,8 +2,8 @@ import React from 'react'
 import './Section4.css'
 import image1 from '../../../assets/persons.webp'
 import image2 from '../../../assets/shipmentdock.webp'
-import image3 from '../../../assets/woRkers.webp'
-// import '../../../assets/'
+import image3 from '../../../assets/workers.webp'
+
 
 const Section4 = () => {
   return (
