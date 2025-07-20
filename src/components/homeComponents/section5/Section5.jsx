@@ -1,6 +1,6 @@
 import React from 'react'
 import './Section5.css'
-import logo from '../../../assets/Seashore.png'
+import personcareers from '../../../assets/personcareers.webp'
 
 const Section5 = () => {
   return (
@@ -15,7 +15,7 @@ const Section5 = () => {
 
          
 
-<img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Fsection-5%2Fimage01.webp&w=1080&q=75" alt="" />
+<img src={personcareers} alt="" />
 
 
         </div>

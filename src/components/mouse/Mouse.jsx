@@ -41,7 +41,7 @@ const MouseScrollTop = () => {
 
       {/* WhatsApp button always visible */}
       <a
-        href="" // replace with your number
+        href="https://wa.me/919999999999" // replace with your number
         target="_blank"
         rel="noopener noreferrer"
         className="wht-btn"
