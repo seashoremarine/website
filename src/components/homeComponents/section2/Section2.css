@@ -24,7 +24,9 @@
   padding: 20px;
   border-radius: 20px;
 }
-
+.section1-details p{
+  text-align: justify;
+}
 .section1-services {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* default: 4 columns */
