@@ -13,7 +13,7 @@ const Section4 = () => {
         <hr />
       </div> */}
 
-      <div id="carouselExampleCaptions" className="carousel slide">
+      <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -72,7 +72,7 @@ const Section4 = () => {
               </div>
             </div>
           </div>
-          <div className="carousel-item">
+          {/* <div className="carousel-item">
             <div className="d-flex align-items-center section4-slide">
               <div className="section4-content">
                 <h5>Third Slide Label</h5>
@@ -83,7 +83,7 @@ const Section4 = () => {
                 <img src="https://www.nautilusshipping.com/_next/image?url=%2Fhome-page%2Four-marine-services%2Fimage04.webp&w=1080&q=75" alt="..." className="img-fluid" />
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
 
