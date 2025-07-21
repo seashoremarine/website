@@ -27,7 +27,7 @@ const Section4 = () => {
 
               {/* Content Left */}
               <div className="section4-content text-light">
-                <h2>STCW</h2>
+                <h1>STCW</h1>
                 <h3>ADVANCED MODULAR COURSES</h3>
                 <p>These courses are mandatory for every seafarer.Certificates have to be renewed on expiry.</p>
                 {/* <div>Read More</div> */}
